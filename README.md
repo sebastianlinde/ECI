@@ -5,7 +5,7 @@ Li, Linde and Shimao (2018), *Major to Occupation Networks: The Importance of Sp
 
 If you use this package we ask that you please cite the above work. 
 
-![](ECI_flow.pdf)
+![ECI_flow.pdf](ECI_flow.pdf)
 
 ## Usage example
 
