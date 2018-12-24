@@ -9,17 +9,15 @@ A few motivating and useful examples of how your product can be used. Spice this
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-```
 
-
-|Major \ Occupation| Occ1:Theorist| Occ2:Accountant| Occ3:Journalist| Occ4:Service
+|Major \ Occupation| Occ1:Theorist| Occ2:Accountant| Occ3:Journalist| Occ4:Service |
 |--------------------|:----------:|:---_----------:|:--------------:|:------------:|
- Major 1: Math       |     5      |        3       |         1      |      1       |
- Major 2: Accounting |     0      |        10      |         0      |      0       |   
- Major 3: English    |     0      |        0       |         8      |      2       |   
- Major 4: Arts       |     0      |        0       |         0      |      10      |
- Major 5: Economics  |     1      |        2       |         2      |      5       | 
-```
+|Major 1: Math       |     5      |        3       |         1      |      1       |
+|Major 2: Accounting |     0      |        10      |         0      |      0       |   
+|Major 3: English    |     0      |        0       |         8      |      2       |   
+|Major 4: Arts       |     0      |        0       |         0      |      10      |
+|Major 5: Economics  |     1      |        2       |         2      |      5       | 
+
 
 ```
 |Major \ Occupation|                   Occ1:Theorist Occ2:Accountant Occ3:Journalist Occ4:Service
