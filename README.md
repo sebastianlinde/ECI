@@ -5,35 +5,27 @@ The ECI package allows you to comute the economic complexity index for any bi-pa
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
+Suppose you have an adjacency matrix linking the number of students from a given major (rows) that end up in a particular occupation (columns) as seen below.  Here, for example, we see that there were a total of 10 students with Mathematics as their major--5 of these ended up working as a Theorist, 3 as Accountants, while 1 became a Journalist and 1 went into a service occupation. 
 
 |Major \ Occupation| Occ1:Theorist| Occ2:Accountant| Occ3:Journalist| Occ4:Service |
-|--------------------|:----------:|:---_----------:|:--------------:|:------------:|
-|Major 1: Math       |     5      |        3       |         1      |      1       |
+|--------------------|:----------:|:--------------:|:--------------:|:------------:|
+|Major 1: Mathematics|     5      |        3       |         1      |      1       |
 |Major 2: Accounting |     0      |        10      |         0      |      0       |   
 |Major 3: English    |     0      |        0       |         8      |      2       |   
 |Major 4: Arts       |     0      |        0       |         0      |      10      |
 |Major 5: Economics  |     1      |        2       |         2      |      5       | 
 
+The ECI package takes adjacency matrices like this and uses it to calculate the ECI on both the major and the occupation sides. It works both in cases where we want to estimate the weighted ECI or the unweighted ECI (using a simple binary adjacency matrix).  
 
-```
-|Major \ Occupation|                   Occ1:Theorist Occ2:Accountant Occ3:Journalist Occ4:Service
+Looking at the case where we want a ***binary input matrix*** we can use the following Python code:
 
- Major 1: Math            5              3                1            1
- Major 2: Accounting      0              10               0            0          
- Major 3: English         0              0                8            2          
- Major 4: Arts            0              0                0            10
- Major 5: Economics       1              2                2            5 
-
-
-########
-# Part1: Using BINARY Adjacency matrix:
-########
+```python
+iterations = 24
+AdjData = np.array([[ 5,  3,  1,  1],[ 0, 10,  0,  0],[ 0,  0,  8,  2],[ 0,  0,  0, 10],[ 1,  2,  2,  5]],dtype='f')
+[ECI_Maj_All, ECI_Occ_All] = ECI.eci_compute((AdjData>0)*1,iterations)
 ```
 
+To obtain the results for the ***weighted ECI case*** we instead use:
 ```python
 iterations = 24
 AdjData = np.array([[ 5,  3,  1,  1],[ 0, 10,  0,  0],[ 0,  0,  8,  2],[ 0,  0,  0, 10],[ 1,  2,  2,  5]],dtype='f')
