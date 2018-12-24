@@ -1,5 +1,5 @@
 # Economic Complexity Index (ECI)
-The ECI package allows you to comute the economic complexity index for any bi-partite network configuration.  This code was used in the project: **Li, Linde and Shimao (2018), *Major to Occupation Networks: The Importance of Specificity*, Mimeo.**  If you use this package we ask that you please cite the above work. 
+The ECI package allows you to compute the economic complexity index for any bi-partite network configuration.  This code was used in the project: **Li, Linde and Shimao (2018), *Major to Occupation Networks: The Importance of Specificity*, Mimeo.**  If you use this package we ask that you please cite the above work. 
 
 ![ECI_flow.pdf](ECI_flow.png)
 
