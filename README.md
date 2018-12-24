@@ -31,6 +31,17 @@ iterations = 24
 AdjData = np.array([[ 5,  3,  1,  1],[ 0, 10,  0,  0],[ 0,  0,  8,  2],[ 0,  0,  0, 10],[ 1,  2,  2,  5]],dtype='f')
 [ECI_Maj_All, ECI_Occ_All] = ECI.eci_compute((AdjData>0)*1,iterations)
 ```
+```
+	|0|	2	|4	|6|	8|
+|:---:|:---:|:---:|:---:|:---:|
+|Math	|2	|1	|1|	1	|1|
+Account	|5	|5	|5	|4	|4|
+Eng	|3	|2	|2	|2	|2|
+Arts|	|5	|4	|4	|5|	5|
+Econ|	2|	3	|3	|3	|3
+
+```
+
 
 ## License
 
