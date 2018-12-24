@@ -24,7 +24,7 @@ iterations = 8
 AdjData = np.array([[ 5,  3,  1,  1],[ 0, 10,  0,  0],[ 0,  0,  8,  2],[ 0,  0,  0, 10],[ 1,  2,  2,  5]],dtype='f')
 [ECI_Maj_All, ECI_Occ_All] = ECI.eci_compute((AdjData>0)*1,iterations)
 ```
-Calling the $ECI.eci_compute(.)$ function yields the following output in this case: 
+Calling the `ECI.eci_compute(.)` function yields the following output in this case: 
 
 ```
 -------------------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ ECI Occ ALL:
 -------------------------------------------------------------------------------------------
 ```
 
-Next, we can get the ECI rankings for the majors and occupations using the $ECI.post_analysis(.)$ function:
+Next, we can get the ECI rankings for the majors and occupations using the `ECI.post_analysis(.)` function:
 
 ```Python
 [ECI_Maj_Even_rank, ECI_Occ_Odd_rank] = ECI.post_analysis(ECI_Maj_All,ECI_Occ_All,['Math','Account','Eng','Arts','Econ'],['Theorist','Accountant','Journalist','Service'])
@@ -74,7 +74,7 @@ Next, we can get the ECI rankings for the majors and occupations using the $ECI.
 |Econ|2|	2	|2	|3	|3|
 
 
-And we can also plot how these ECI rankings evolve over the iterations using the $MOR_Plot(.)$ function:
+And we can also plot how these ECI rankings evolve over the iterations using the `MOR_Plot(.)` function:
 
 ![](MOR plot)
 
