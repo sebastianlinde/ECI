@@ -64,15 +64,15 @@ Next, we can get the ECI rankings for the majors and occupations using the $ECI.
 ```Python
 [ECI_Maj_Even_rank, ECI_Occ_Odd_rank] = ECI.post_analysis(ECI_Maj_All,ECI_Occ_All,['Math','Account','Eng','Arts','Econ'],['Theorist','Accountant','Journalist','Service'])
 ```
-|	|0|	2	|4	|6|	8|
+|	| 0  | 2   |4	  | 6|	8|
 |---|:---:|:---:|:---:|:---:|
-|Math	|2	|2	|2|	3	|3|
-|Account	|5	|4	|3	|1	|1|
+|Math|2	|2	|2|	3	|3|
+|Account|5|4	|3	|1	|1|
 |Eng	|3	|3	|4	|4	|4|
-|Arts|	|5	|5	|5	|5|	5|
-|Econ|	2|	2	|2	|3	|3|
+|Arts|5	|5	|5	|5|	5|
+|Econ|2|	2	|2	|3	|3|
 
-```
+
 And we can also plot how these ECI rankings evolve over the iterations using the $MOR_Plot(.)$ function:
 
 ![](MOR plot)
