@@ -78,7 +78,7 @@ And we can also plot how these ECI rankings evolve over the iterations using the
 ```Python
 ECI.MOR_plot(ECI_Maj_Even_rank,'MOR Iterations For Majors','Even Iterations')
 ```
-![](MOR plot)
+![MOR_plot_Example.png](MOR plot)
 
 
 ## License
