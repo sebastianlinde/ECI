@@ -86,5 +86,5 @@ ECI.MOR_plot(ECI_Maj_Even_rank,'MOR Iterations For Majors','Even Iterations')
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
-The economic complexity index was first put forth in the context of country-trade data by Hidalgo and Hausmann (). See and reference 
+The economic complexity index was first put forth in the context of country-trade data by Hidalgo and Hausmann (2009). See their work:
 Hidalgo and Hausmann, 2009, *The building blocks of economic complexity*, Proceedings of the National Academy of Sciences Jun 2009, 106 (26) 10570-10575; DOI: 10.1073/pnas.0900943106
