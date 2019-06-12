@@ -75,7 +75,9 @@ Next, we can get the ECI rankings for the majors and occupations using the `ECI.
 
 
 And we can also plot how these ECI rankings evolve over the iterations using the `MOR_Plot(.)` function:
-
+```Python
+ECI.MOR_plot(ECI_Maj_Even_rank,'MOR Iterations For Majors','Even Iterations')
+```
 ![](MOR plot)
 
 
