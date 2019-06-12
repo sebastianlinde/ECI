@@ -1,5 +1,5 @@
 # Economic Complexity Index (ECI)
-The ECI package allows you to compute the economic complexity index for any bi-partite network configuration.  This code was used in the project: **Li, Linde and Shimao (2018), *Major to Occupation Networks: The Importance of Specificity*, Mimeo.**  If you use this package we ask that you please cite the above work. 
+The ECI package allows you to compute the economic complexity index for any bi-partite network configuration.  This code was used in the project: **Li, Linde and Shimao (2018), *Major Complexity Index and College Skill Production*, Mimeo.**  If you use this package we ask that you please cite the above work. 
 
 ![ECI_flow.pdf](ECI_flow.png)
 
@@ -83,7 +83,7 @@ ECI.MOR_plot(ECI_Maj_Even_rank,'MOR Iterations For Majors','Even Iterations')
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 The economic complexity index was first put forth in the context of country-trade data by Hidalgo and Hausmann (). See and reference 
